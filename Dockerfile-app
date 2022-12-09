@@ -1,6 +1,6 @@
 #ARG REGISTRY_NAME
-#FROM doclancontainerstaging.azurecr.io/baseimages/node:15-alpine
-FROM doclancontainerstaging.azurecr.io/phuongbaseimage
+FROM doclancontainerstaging.azurecr.io/baseimages/node:15-alpine
+#FROM doclancontainerstaging.azurecr.io/phuongbaseimage
 
 #FROM ${REGISTRY_NAME}/baseimages/node:15-alpine
 
