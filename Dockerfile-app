@@ -1,5 +1,9 @@
-ARG REGISTRY_NAME
-FROM ${REGISTRY_NAME}/baseimages/node:15-alpine
+#ARG REGISTRY_NAME
+#FROM doclancontainerstaging.azurecr.io/baseimages/node:15-alpine
+FROM doclancontainerstaging.azurecr.io/phuongbaseimage
+
+#FROM ${REGISTRY_NAME}/baseimages/node:15-alpine
+
 
 COPY . /src
 RUN cd /src && npm install
