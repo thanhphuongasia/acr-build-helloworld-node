@@ -1,2 +1,2 @@
 FROM node:15-alpine
-ENV NODE_VERSION 15.10kkk
+ENV NODE_VERSION 15.12lannua
